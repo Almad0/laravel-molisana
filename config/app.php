@@ -15,6 +15,21 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+
+
+    /*
+    |--------------------------------------------------------------------------
+    | Dati sulla pasta
+    |--------------------------------------------------------------------------
+    |
+    | The service providers listed here will be automatically loaded on the
+    | request to your application. Feel free to add your own services to
+    | this array to grant expanded functionality to your applications.
+    |
+    */
+
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment

@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('homepage');
-});
+})->name('home');
 
 Route::get('products', function () {
     $pasteDB = [
@@ -142,8 +142,8 @@ Route::get('products', function () {
      ];
 
     return view('prodotti', compact('pasteDB'));
-});
+})->name('products');
 
 Route::get('contacts', function () {
     return view('contatti');
-});
+})->name('contacts');
